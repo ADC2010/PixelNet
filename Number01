@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOrkut - Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-info h2 {
+            margin: 0;
+            color: #333;
+        }
+        .profile-info p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .communities {
+            margin-top: 20px;
+        }
+        .community-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .community {
+            width: 30%;
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .community h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DevOrkut</h1>
+    </div>
+
+    <div class="container">
+        <!-- Cabeçalho do perfil -->
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/100" alt="Foto de perfil">
+            <div class="profile-info">
+                <h2>Nome do Desenvolvedor</h2>
+                <p>@usuario_dev</p>
+                <p>Desenvolvedor Frontend | JavaScript, React, CSS</p>
+            </div>
+        </div>
+
+        <!-- Seção de comunidades -->
+        <div class="communities">
+            <h2>Comunidades</h2>
+            <div class="community-list">
+                <div class="community">
+                    <h3>Programadores que amam Café</h3>
+                    <p>Membros: 1.234</p>
+                </div>
+                <div class="community">
+                    <h3>Debuggers Anônimos</h3>
+                    <p>Membros: 987</p>
+                </div>
+                <div class="community">
+                    <h3>Eu odeio Tabs</h3>
+                    <p>Membros: 456</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 DevOrkut. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
