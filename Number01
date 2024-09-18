@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOrkut - Perfil</title>
+    <title>PixelNet - Perfil</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -111,7 +111,7 @@
     </div>
 
     <footer>
-        <p>© 2024 DevOrkut. Todos os direitos reservados.</p>
+        <p>© 2024 PixelNet. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
